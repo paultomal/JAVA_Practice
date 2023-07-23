@@ -1,1 +1,2 @@
 # JAVA_Practice
+##1. Create a class called Shape with a method calculateArea() that calculates and returns the area of the shape. Then, create two subclasses Rectangle and Circle that inherit from Shape and override the calculateArea() method to provide their specific area calculations. Finally, write a program to demonstrate polymorphism by creating an array of Shape objects containing both rectangles and circles, and print their areas.
