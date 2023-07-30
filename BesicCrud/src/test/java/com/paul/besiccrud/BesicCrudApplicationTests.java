@@ -1,10 +1,10 @@
-package com.example.basiccrud;
+package com.paul.besiccrud;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BasicCrudApplicationTests {
+class BesicCrudApplicationTests {
 
 	@Test
 	void contextLoads() {
