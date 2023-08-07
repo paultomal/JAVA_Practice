@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
 
         final int monthsOfYears = 12;
-        final int percent = 12;
+        final int percent = 100;
 
         Scanner scanner = new Scanner(System.in);
 

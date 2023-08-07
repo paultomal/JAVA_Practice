@@ -5,7 +5,7 @@ public class AdvanceMortgageCalculator {
     public static void main(String[] args) {
 
         final int monthsOfYears = 12;
-        final int percent = 12;
+        final int percent = 100;
 
         Scanner scanner = new Scanner(System.in);
         int principal = 0;
@@ -49,12 +49,6 @@ public class AdvanceMortgageCalculator {
         Double mortgage;
         mortgage = principal * (cal1/cal2);
         System.out.println("Mortgage : "+ NumberFormat.getCurrencyInstance().format(mortgage));
-
-
-
-
-
-
 
     }
 }
