@@ -4,6 +4,7 @@ import com.paul.registrationform.entity.Registration;
 import com.paul.registrationform.repository.RegistrationRepository;
 import org.springframework.stereotype.Service;
 
+import javax.validation.Valid;
 import java.util.List;
 
 @Service
@@ -36,7 +37,7 @@ public class RegistrationService {
         Registration existingRegistration = repository.findById(registration.getId()).orElse(null);
         existingRegistration.setFirstName(registration.getFirstName());
         existingRegistration.setLastName(registration.getLastName());
-        existingRegistration.setEmail(registration.getEmail());
+        existingRegistration.setEmail( registration.getEmail());
         existingRegistration.setDate(registration.getDate());
         existingRegistration.setNationality(registration.getNationality());
         existingRegistration.setContact(registration.getContact());
